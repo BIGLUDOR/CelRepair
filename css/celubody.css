@@ -1,0 +1,81 @@
+.bodyconteiner {
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.bodyconteiner img {
+    width: 500px;
+    height: 300px;
+    margin-left: 5px;
+}
+
+.sectionconte .linehori {
+    content: ' ';
+    height: 4px;
+    width: 100%;
+    margin: 20px auto;
+    background-color: #C7C7A6;
+    display: block;
+}
+
+.sectionconte {
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 50px auto;
+}
+
+.sectionconte .sectitulo {
+    width: 100%;
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Pacifico', cursive;
+    text-shadow: 0px 15px 10px rgb(0, 0, 0, 0.8);
+}
+
+.sectionconte .listreparacion {
+    width: 90%;
+    margin: 0px auto;
+}
+
+.sectionconte .listreparacion li {
+    width: 100%;
+    margin: 30px auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.sectionconte .listreparacion li h3 {
+    width: 100%;
+    font-size: 30px;
+    font-family: 'Pacifico';
+}
+
+.listreparacion .textconte {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    line-height: 25px;
+    margin: 20px 0px;
+}
+
+@media screen and (max-width: 1000px) {
+    .bodyconteiner img {
+        width: 300px;
+        height: 170px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .bodyconteiner img {
+        margin-top: 20px;
+    }
+    .sectionconte .sectitulo {
+        font-size: 30px;
+    }
+    .listreparacion .textconte {
+        flex-direction: column;
+        align-items: center;
+    }
+}

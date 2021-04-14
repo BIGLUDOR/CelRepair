@@ -1,0 +1,99 @@
+.bodyconteiner {
+    width: 100%;
+}
+
+.bodyconteiner .imagedesk {
+    width: 100%;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 15px 10px rgb(0, 0, 0, 0.8);
+}
+
+.imagedesk h1 {
+    position: absolute;
+    font-size: 78px;
+    font-family: 'Pacifico';
+    text-shadow: 0px 5px 10px rgb(0, 0, 0, 0.5);
+}
+
+.sectionbody {
+    width: 80%;
+    margin: 20px auto;
+}
+
+.sectionbody li {
+    width: 80%;
+    margin: 50px auto;
+}
+
+.sectionbody h3 {
+    font-size: 40px;
+    font-family: 'Pacifico';
+    text-shadow: 0px 5px 10px rgb(0, 0, 0, 0.8);
+    margin-bottom: 20px;
+    margin-right: 10px;
+}
+
+.sectionbody p {
+    font-size: 20px
+}
+
+.sectionbody .textconteiner img {
+    width: 400px;
+    height: 220px;
+    margin: 0px 20px;
+}
+
+.sectionbody .textconteiner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.servicio {
+    display: flex;
+    flex-direction: row;
+}
+
+.sectionbody .banner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sectionbody .banner h1 {
+    position: absolute;
+    font-size: 150px;
+    color: #fff;
+}
+
+@media screen and (max-width: 980px) {
+    .sectionbody .textconteiner img {
+        width: 350px;
+        height: 150px;
+        margin: 20px auto;
+    }
+    .imagedesk h1 {
+        font-size: 30px;
+    }
+    .sectionbody h3 {
+        font-size: 20px;
+    }
+    .sectionbody p {
+        font-size: 15px;
+    }
+    .sectionbody .textconteiner {
+        flex-direction: column;
+    }
+    .sectionbody .banner h1 {
+        font-size: 50px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .sectionbody .textconteiner img {
+        width: 220px;
+        height: 100px;
+    }
+}

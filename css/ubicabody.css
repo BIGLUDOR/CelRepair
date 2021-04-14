@@ -1,0 +1,79 @@
+.conteiner {
+    width: 90%;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.conteiner .textconteiner {
+    width: 100%;
+    padding: 10px;
+    margin: 10px auto;
+}
+
+.textconteiner .titulo {
+    width: 100%;
+    margin: 0px auto 20px auto;
+    font-family: 'Pacifico';
+    font-size: 40px;
+    text-align: center;
+}
+
+.textconteiner p {
+    width: 80%;
+    margin: 10px auto;
+    font-size: 20px;
+}
+
+.textconteiner .conjuntoimages {
+    display: flex;
+    align-items: center;
+    justify-content: space-between
+}
+
+.textconteiner .conjuntoimages img {
+    width: 300px;
+    height: 170px;
+    box-shadow: 0px 0px 10px 10px rgb(0, 0, 0, 0.9);
+    margin-top: 20px;
+    display: block;
+}
+
+@media screen and (max-width: 1000px) {
+    .textconteiner .conjuntoimages img {
+        width: 200px;
+        height: 120px;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .textconteiner .conjuntoimages img {
+        width: 350px;
+        height: 200px;
+    }
+    .textconteiner .conjuntoimages {
+        display: flex;
+        flex-direction: column;
+    }
+    .maps {
+        align-items: center;
+        justify-content: center;
+        width: 400px;
+        height: 300px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .textconteiner .conjuntoimages img {
+        width: 300px;
+        height: 150px;
+    }
+    .maps {
+        align-items: center;
+        justify-content: center;
+        width: 350px;
+        height: 400px;
+    }
+}
